@@ -1,6 +1,4 @@
 print('line 1')
 
 
-x = input()
-
-print(x)
+print('editied line')
