@@ -9,6 +9,7 @@ pipeline{
 		stage('execute'){
 			steps{
 				sh 'python3 remote.py'
+				sh 'python3 git.py'
 			}
 		}
 	}
